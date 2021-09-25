@@ -1,3 +1,6 @@
+# basic terraform configuration file to practice and master the terraform
+# workflow commands. terrafom: init validate plan apply destroy
+
 # Terraform Settings Block
 terraform {
   required_providers {
@@ -16,6 +19,10 @@ provider "aws" {
 
 # Resource Block
 resource "aws_instance" "ec2demo" {
-  ami           = "ami-0be2609ba883822ec" # Amazon Linux in us-east-1, update as per your region
+  ami           = "ami-087c17d1fe0178315" # Amazon Linux in us-east-1, update as per your region
   instance_type = "t2.micro"
 }
+
+# east-1 AMI
+# ami-0be2609ba883822ec
+# old AMI id already stated, saving just incase. 
