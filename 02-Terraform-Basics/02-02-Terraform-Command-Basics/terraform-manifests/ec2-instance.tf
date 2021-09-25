@@ -22,7 +22,3 @@ resource "aws_instance" "ec2demo" {
   ami           = "ami-087c17d1fe0178315" # Amazon Linux in us-east-1, update as per your region
   instance_type = "t2.micro"
 }
-
-# east-1 AMI
-# ami-0be2609ba883822ec
-# old AMI id already stated, saving just incase. 
