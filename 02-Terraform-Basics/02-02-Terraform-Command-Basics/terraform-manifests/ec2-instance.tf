@@ -16,6 +16,8 @@ provider "aws" {
   profile = "default" # AWS Credentials Profile configured on your local desktop terminal  $HOME/.aws/credentials
   region  = "us-east-1"
 }
+# 'heart' of terraform
+# sit's between the CLI and respective AWS cloud provider API
 
 # Resource Block
 resource "aws_instance" "ec2demo" {
